@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffebf0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 28px;
+}
+
+#cat {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yes {
+    background-color: #ff4d6d;
+    color: white;
+    border-radius: 10px;
+}
+
+#no {
+    background-color: #ccc;
+    color: black;
+    position: absolute;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
